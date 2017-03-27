@@ -470,7 +470,7 @@ class SpeedGraph:
 
 
 def speed_scale(s):
-    if s <= 0: return 0
+    if (s is None) or (s <= 0): return 0
     if logarithmic_scale:
         s = math.log(s, 2)
     s = min(graph_range(), max(0, s-graph_min()))
