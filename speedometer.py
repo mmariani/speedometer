@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 # speedometer.py
 # Copyright (C) 2001-2012  Ian Ward
